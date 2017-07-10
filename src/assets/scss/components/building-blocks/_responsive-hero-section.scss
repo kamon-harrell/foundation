@@ -12,5 +12,9 @@ $hero-height: 92vh;
   .hero-section-text {
     color: $white;
     text-shadow: 1px 1px  $black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
   }
 }
