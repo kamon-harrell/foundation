@@ -11,6 +11,22 @@
   </head>
   <body>
 
+    <!-- hero code -->
+     <div class="hero-section">
+       <div class="hero-section-text">
+         <h1> KAMON HARRELL :// WEB DEVELOPER</h1>
+         <ul class="menu menu-hover-lines">
+           <li class="active"><a href="/#">Home</a></li>
+           <li><a href="../blog/blog.html">Blog</a></li>
+           <li><a href="projects.html">projects</a></li>
+           <li><a href="https://github.com/kamon-harrell">Github</a></li>
+           <li><a href="https://www.linkedin.com/in/kamon-harrell/">LinkedIn</a></li>
+         </ul>
+       </div>
+       <!-- this is just here for the hero image -->
+     </div>
+     <!-- hero close -->
+    
     <div class="simple-article-header">
       <!-- Article Published Date & Reading Time -->
       <p class="article-date-read">Published on: 21 April, 2017 - 3 min read</p>
@@ -59,8 +75,32 @@
       </div>
     </div>
     
+    <footer class="responsive-blog-footer">
+      <div class="row">
+        <div class="medium-8 columns small-order-2 medium-order-1 about-container">
+          <div class="row">
+            <div class="hide-for-small-only medium-4 columns about-section">
+              <img src="https://placehold.it/250x250">
+            </div>
+            <div class="medium-8 columns about-section">
+              <h4> About Me</h4>
+              <p>paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row columns flex-container align-justify">
+         <p> all rights reserved</p>
+        <div class="up-arrow">
+          <a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </footer>
+    
 
     <script src="../assets/js/app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -70,6 +110,18 @@
       ga('create', 'UA-97836641-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBPNfbAX7jfu11yGgta_oN2QWYueblldzM",
+        authDomain: "blog-36790.firebaseapp.com",
+        databaseURL: "https://blog-36790.firebaseio.com",
+        projectId: "blog-36790",
+        storageBucket: "https://blog.firebaseio.com",
+        messagingSenderId: "181949999340"
+      };
+      firebase.initializeApp(config);
     </script>
   </body>
 </html>

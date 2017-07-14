@@ -47,5 +47,9 @@
       "es2015"
     ]
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10"
+  }
 }
